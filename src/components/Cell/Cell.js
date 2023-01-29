@@ -28,10 +28,10 @@ export const Cell = ({
     boxShadow: lightTheme ? "none" : isClicked || isActive ? boxShadow : "none", // 2nd none = boxShadow
   };
 
-  function handleClick(e){
+  function handleClick(e) {
     e.preventDefault();
-    if(disabled)return
-    setIsClicked(true)
+    if (disabled) return;
+    setIsClicked(true);
   }
 
   function handleGuess() {
@@ -61,7 +61,7 @@ export const Cell = ({
 
   return (
     <button
-      className={ isActive || isClicked ? "cell flash" : "cell"}
+      className={isActive || isClicked ? "cell flash" : "cell"}
       style={activeStyles}
       onTouchStart={handleClick}
       onMouseDown={handleClick}

@@ -211,7 +211,6 @@ export const Game = () => {
             <p style={centerIconStyle}>{centerText}</p>
           </button>
         </div>
-        <Shadow />
         {selectedIcon && (
           <Modal
             content={selectedIcon}

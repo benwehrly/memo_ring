@@ -1,6 +1,5 @@
 import "./style.css";
-import { FaTrophy, FaInfoCircle } from "react-icons/fa";
-import { FiSettings } from "react-icons/fi";
+import { FaInfoCircle } from "react-icons/fa";
 import { ImStatsBars, ImCog } from "react-icons/im";
 import { ThemeContext } from "../../Contexts/ThemeContext";
 import { useContext } from "react";
