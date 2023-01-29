@@ -1,0 +1,42 @@
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.toggle {
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    border-radius: 100px;
+    border: 2px solid rgb(255,255,255,.5);
+    position: relative;
+    cursor: pointer;
+    margin-block: 10px;
+}
+
+.toggle-button {
+    position: absolute;
+    height: 21px;
+    width: 21px;
+    background-color:rgb(160,160,160);
+    border-radius: 100px;
+    margin-inline: 3px;
+    left: 10.5px;
+    top: 50%;
+    translate: -50% -50%;
+    transition: left .1s cubic-bezier(1,2,.1, 1.5);
+}
+
+
+.on {
+    background-color: white;
+    left: calc(100% - 16.5px);
+}
+
+.toggle-warning {
+    font-size: .7rem;
+    color:rgb(0,0,0,.1);
+    margin-bottom: 20px;
+}
