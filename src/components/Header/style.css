@@ -111,7 +111,7 @@ h2:hover {
     min-width: 30px;
   }
 }
-@media (max-height: 550px) {
+@media (max-height: 490px) {
   header {
     display: none;
   }
